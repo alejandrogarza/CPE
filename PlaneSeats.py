@@ -74,3 +74,8 @@ def solution(N, S):
 
 
 print(solution(2, "1A 2F 1C"))
+print(solution(10, ""))
+print(solution(4, "1A 2F 1C 4A 3D 4C 3C 2G 4K"))
+print(solution(40, "1A 3C 2B 40G 5A"))
+print(solution(40, ""))
+print(solution(0, "1A"))
