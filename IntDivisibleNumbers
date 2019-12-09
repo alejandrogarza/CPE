@@ -1,0 +1,12 @@
+# numbers(start, end)... give numbers between those 2, that are divisible by 7 and not 5… separate those numbers with ‘/’
+
+def numbers(start, end):
+  result = []
+  for i in range(start, end+1):
+    if i % 7 == 0:
+      if not i%5 == 0:
+        result.append(str(i))
+  return "/".join(result)
+
+
+print(numbers(1, 500))
